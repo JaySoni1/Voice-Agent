@@ -1,7 +1,7 @@
 # ARIA — Voice-Based AI Agent with Memory & Tools
 
 A full-stack voice AI agent that manages your To-Do list and remembers
-important context, powered by Claude claude-sonnet-4-20250514 with tool calling.
+important context .
 
 ```
 voice-agent/
@@ -21,7 +21,7 @@ voice-agent/
 ```bash
 cd backend
 python -m venv venv
-source venv/bin/activate        # Windows: venv\Scripts\activate
+source venv/bin/activate      
 pip install -r requirements.txt
 uvicorn main:app --reload --port 8000
 ```
